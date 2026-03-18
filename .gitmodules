@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/ATOMLubover/poprako-w.git
+[submodule "web"]
+	path = web
+	url = https://github.com/SeaAndStars/poprako-web.git
