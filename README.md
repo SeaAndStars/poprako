@@ -1,23 +1,5 @@
 # 项目概述
 
-<cite>
-**本文引用的文件**
-- [后端主入口 main.go](file://backend/backend-v1/main.go)
-- [后端 HTTP 路由 http.go](file://backend/backend-v1/internal/api/http/http.go)
-- [后端配置 config.go](file://backend/backend-v1/internal/config/config.go)
-- [后端团队应用服务 team.go](file://backend/backend-v1/internal/application/team.go)
-- [后端漫画应用服务 comic.go](file://backend/backend-v1/internal/application/comic.go)
-- [后端团队领域模型 team.go](file://backend/backend-v1/internal/domain/model/team.go)
-- [后端漫画领域模型 comic.go](file://backend/backend-v1/internal/domain/model/comic.go)
-- [后端工作集领域模型 workset.go](file://backend/backend-v1/internal/domain/model/workset.go)
-- [前端入口 main.ts](file://web/src/main.ts)
-- [前端根组件 App.vue](file://web/src/App.vue)
-- [前端路由配置 index.ts](file://web/src/router/index.ts)
-- [前端包配置 package.json](file://web/package.json)
-- [后端模块清单 go.mod](file://backend/backend-v1/go.mod)
-- [后端 README](file://backend/backend-v1/README.md)
-- [前端 README](file://web/README.md)
-</cite>
 
 ## 目录
 1. [引言](#引言)
