@@ -1,0 +1,64 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-backend-dotnet",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"backend/backend-v2-dotnet/Poprako.Backend.slnx"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build-web",
+			"type": "shell",
+			"command": "pnpm",
+			"args": [
+				"--dir",
+				"web",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build-web",
+			"type": "shell",
+			"command": "pnpm",
+			"args": [
+				"--dir",
+				"web",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "build-web",
+			"type": "shell",
+			"command": "pnpm",
+			"args": [
+				"--dir",
+				"web",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		}
+	]
+}
