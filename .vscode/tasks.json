@@ -5,7 +5,7 @@
       "label": "build-backend-dotnet",
       "type": "shell",
       "command": "dotnet",
-      "args": ["build", "backend/backend-v2-dotnet/Poprako.Backend.slnx"],
+      "args": ["build", "backend-v2-dotnet/Poprako.Backend.slnx"],
       "isBackground": false,
       "problemMatcher": ["$msCompile"],
       "group": "build"

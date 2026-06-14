@@ -1,5 +1,14 @@
 # 项目概述
 
+## Monorepo 结构
+
+本仓库通过 Git Submodule 管理三个独立仓库：
+
+- `web/`：前端
+- `backend-v2-dotnet/`：.NET 后端
+- `backend-v3-rust/`：Rust 后端（当前默认）
+
+克隆与日常操作见 [docs/monorepo.md](docs/monorepo.md)。
 
 ## 目录
 1. [引言](#引言)
@@ -22,7 +31,16 @@ Poprako 是一个面向漫画汉化团队的协作管理平台，采用前后端
 - 新手版网站角色与操作流程说明：docs/website-role-flow-guide.md
 
 ## 项目结构
-项目采用典型的分层架构与 DDD 思想：
+
+Monorepo 子模块布局：
+
+- 前端 `web/`
+- .NET 后端 `backend-v2-dotnet/`
+- Rust 后端 `backend-v3-rust/`
+
+历史 Go 后端 `backend-v1` 已迁移归档，不再作为默认运行目标。
+
+旧分层架构参考（Go 后端）：
 - 后端 backend/backend-v1
   - internal/api/http：HTTP 路由与中间件
   - internal/application：应用服务层，编排业务流程
