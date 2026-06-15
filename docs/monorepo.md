@@ -47,8 +47,7 @@ pnpm dev
 ```bash
 cd backend-v3-rust
 cp .env.sample .env
-cargo run -p poprako-migration
-cargo run -p poprako-api
+cargo run -p poprako-api   # 启动时自动执行数据库 migration
 ```
 
 ### .NET 后端
